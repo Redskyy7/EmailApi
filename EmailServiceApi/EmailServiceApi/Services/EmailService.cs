@@ -7,8 +7,8 @@ namespace EmailServiceApi.Services
     {
         private string smtpAdress => "smtp.gmail.com";
         private int portNumber => 587;
-        private string emailFromAdress => "sendmail.dotnetnapratica@gmail.com";
-        private string password => "dotnet100";
+        private string emailFromAdress => "";
+        private string password => "";
 
         public void AddEmailsToMailMessage(MailMessage mailMessage, string[] emails)
         {
